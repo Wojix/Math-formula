@@ -64,7 +64,7 @@ h1{margin:0;font-size:20px}
       <div class="logo">公式</div>
       <div>
         <h1>世界の公式集</h1>
-        <div class="subtitle">外部 JSON(formulas.json) からロードします。検索／タグ／カテゴリ／LaTeX コピー対応。</div>
+        <div class="subtitle">外部 JSON(data.json) からロードします。検索／タグ／カテゴリ／LaTeX コピー対応。</div>
       </div>
     </div>
 
@@ -87,7 +87,7 @@ h1{margin:0;font-size:20px}
         </select>
       </div>
       <div class="count" id="resultCount">全 <span id="total">0</span> 件</div>
-      <button class="btn" id="reloadBtn" title="formulas.json を再読み込み">データ再読み込み</button>
+      <button class="btn" id="reloadBtn" title="date.json を再読み込み">データ再読み込み</button>
     </div>
   </div>
 
@@ -102,12 +102,12 @@ h1{margin:0;font-size:20px}
   <div id="empty" class="empty" style="display:none">該当する公式が見つかりませんでした。</div>
 
   <div class="footer">
-    データは formulas.json に保存されています。大量追加する場合は JSON を編集・差し替えてください。MathJax 等のレンダリングは別途追加できます。
+    データは date.json に保存されています。大量追加する場合は JSON を編集・差し替えてください。MathJax 等のレンダリングは別途追加できます。
   </div>
 </div>
 
 <script>
-/* 外部 JSON から読み込むようにした index。formulas.json を同じディレクトリに置いてください。
+/* 外部 JSON から読み込むようにした index。date.json を同じディレクトリに置いてください。
    フェッチに失敗した場合はフォールバックの埋め込みデータ（小規模）を使います。 */
 
 let entries = []; // 実データ
@@ -122,7 +122,7 @@ const reloadBtn = document.getElementById('reloadBtn');
 
 async function loadData(){
   try{
-    const resp = await fetch('formulas.json', {cache: "no-store"});
+    const resp = await fetch('date.json', {cache: "no-store"});
     if(!resp.ok) throw new Error('Network response not ok');
     const data = await resp.json();
     entries = data;
