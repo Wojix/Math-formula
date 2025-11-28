@@ -1,0 +1,866 @@
+[
+  {
+    "id": 1,
+    "title": "二次方程式の解の公式",
+    "category": "数学",
+    "tags": ["代数", "方程式"],
+    "formulaText": "ax^2 + bx + c = 0 の解: x = (-b ± √(b^2 - 4ac)) / (2a)",
+    "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+    "description": "a ≠ 0 のときの二次方程式の一般解。判別式 Δ = b^2 - 4ac により実数解の有無を判定する。"
+  },
+  {
+    "id": 2,
+    "title": "等差数列の和",
+    "category": "数学",
+    "tags": ["数列", "和"],
+    "formulaText": "和 S_n = n(a_1 + a_n)/2",
+    "latex": "S_n = \\frac{n(a_1 + a_n)}{2}",
+    "description": "初項 a1、末項 an の等差数列の初 n 項の和。"
+  },
+  {
+    "id": 3,
+    "title": "等比数列の和（初項 a, 公比 r）",
+    "category": "数学",
+    "tags": ["数列", "和"],
+    "formulaText": "S_n = a(1 - r^n)/(1 - r) (r ≠ 1)",
+    "latex": "S_n = a \\frac{1 - r^n}{1 - r}",
+    "description": "収束条件 r の絶対値 < 1 のとき n → ∞ で S_∞ = a/(1-r)"
+  },
+  {
+    "id": 4,
+    "title": "二項定理",
+    "category": "数学",
+    "tags": ["組合せ", "式展開"],
+    "formulaText": "(x+y)^n = Σ_{k=0}^n C(n,k) x^{n-k} y^k",
+    "latex": "(x+y)^n = \\sum_{k=0}^{n} \\binom{n}{k} x^{n-k} y^k",
+    "description": "組み合わせ数 C(n,k)=n!/k!/(n-k)! を用いる。"
+  },
+  {
+    "id": 5,
+    "title": "階乗と組合せ",
+    "category": "数学",
+    "tags": ["組合せ", "基礎"],
+    "formulaText": "n! = n×(n-1)×...×1, C(n,k) = n!/(k!(n-k)!)",
+    "latex": "n! , \\; \\binom{n}{k} = \\frac{n!}{k!(n-k)!}",
+    "description": "順列・組合せの基礎。"
+  },
+  {
+    "id": 6,
+    "title": "微分の定義",
+    "category": "数学",
+    "tags": ["微分", "基本"],
+    "formulaText": "f'(x) = lim_{h→0} (f(x+h)-f(x))/h",
+    "latex": "f'(x)=\\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}",
+    "description": "導関数（微分係数）の定義。"
+  },
+  {
+    "id": 7,
+    "title": "積の微分（積の法則）",
+    "category": "数学",
+    "tags": ["微分", "基本"],
+    "formulaText": "(fg)' = f'g + fg'",
+    "latex": "(fg)' = f' g + f g'",
+    "description": "二つの関数の積の微分法則。"
+  },
+  {
+    "id": 8,
+    "title": "合成関数の微分（連鎖律）",
+    "category": "数学",
+    "tags": ["微分", "基本"],
+    "formulaText": "(f∘g)'(x) = f'(g(x))·g'(x)",
+    "latex": "(f\\circ g)'(x) = f'(g(x))\\cdot g'(x)",
+    "description": "合成関数の微分。"
+  },
+  {
+    "id": 9,
+    "title": "定積分と面積",
+    "category": "数学",
+    "tags": ["積分", "応用"],
+    "formulaText": "∫_a^b f(x) dx は曲線 y=f(x)、x=a..b と x 軸で囲まれる面積",
+    "latex": "\\int_a^b f(x)\\,dx",
+    "description": "基本定理: d/dx ∫_a^x f(t) dt = f(x)"
+  },
+  {
+    "id": 10,
+    "title": "部分積分",
+    "category": "数学",
+    "tags": ["積分", "テクニック"],
+    "formulaText": "∫ u dv = u v - ∫ v du",
+    "latex": "\\int u\\,dv = uv - \\int v\\,du",
+    "description": "積の積分を扱うテクニック。"
+  },
+  {
+    "id": 11,
+    "title": "テイラー展開（1変数）",
+    "category": "数学",
+    "tags": ["解析", "展開"],
+    "formulaText": "f(x) = Σ_{n=0}^∞ f^{(n)}(a)/n! · (x-a)^n",
+    "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n",
+    "description": "解析関数の局所展開。a=0 の場合はマクローリン展開。"
+  },
+  {
+    "id": 12,
+    "title": "円の面積・周長",
+    "category": "数学",
+    "tags": ["幾何", "円"],
+    "formulaText": "面積 A = π r^2, 周長 C = 2π r",
+    "latex": "A = \\pi r^2, \\quad C = 2\\pi r",
+    "description": "r は半径。"
+  },
+  {
+    "id": 13,
+    "title": "三角形の面積（底辺と高さ）",
+    "category": "数学",
+    "tags": ["幾何", "面積"],
+    "formulaText": "A = (1/2)·base·height",
+    "latex": "A = \\frac{1}{2}bh",
+    "description": "底辺 b と高さ h を使う。"
+  },
+  {
+    "id": 14,
+    "title": "余弦定理",
+    "category": "数学",
+    "tags": ["三角法", "幾何"],
+    "formulaText": "c^2 = a^2 + b^2 - 2ab cos γ",
+    "latex": "c^2 = a^2 + b^2 - 2ab\\cos\\gamma",
+    "description": "三角形の三辺と角の関係。"
+  },
+  {
+    "id": 15,
+    "title": "正多面体のオイラーの公式",
+    "category": "数学",
+    "tags": ["位相", "図形"],
+    "formulaText": "V - E + F = 2 (凸多面体)",
+    "latex": "V - E + F = 2",
+    "description": "頂点 V、辺 E、面 F の関係。"
+  },
+  {
+    "id": 16,
+    "title": "行列の積",
+    "category": "数学",
+    "tags": ["線形代数"],
+    "formulaText": "(AB)_{ij} = Σ_k A_{ik} B_{kj}",
+    "latex": "(AB)_{ij} = \\sum_k A_{ik} B_{kj}",
+    "description": "行列積の定義。"
+  },
+  {
+    "id": 17,
+    "title": "逆行列（2x2）",
+    "category": "数学",
+    "tags": ["線形代数"],
+    "formulaText": "A^{-1} = (1/(ad-bc)) [d -b; -c a]",
+    "latex": "A^{-1} = \\frac{1}{ad-bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}",
+    "description": "2x2 行列の逆行列（行列式 ≠ 0 の場合）。"
+  },
+  {
+    "id": 18,
+    "title": "固有値と固有ベクトル",
+    "category": "数学",
+    "tags": ["線形代数", "固有"],
+    "formulaText": "A v = λ v",
+    "latex": "A\\mathbf{v} = \\lambda \\mathbf{v}",
+    "description": "線形変換の固有問題。"
+  },
+  {
+    "id": 19,
+    "title": "確率の加法定理（排反）",
+    "category": "数学",
+    "tags": ["確率"],
+    "formulaText": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+    "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
+    "description": "一般の2事象の和の確率。"
+  },
+  {
+    "id": 20,
+    "title": "ベイズの定理",
+    "category": "数学",
+    "tags": ["確率", "統計"],
+    "formulaText": "P(A|B) = P(B|A) P(A) / P(B)",
+    "latex": "P(A|B) = \\frac{P(B|A) P(A)}{P(B)}",
+    "description": "条件付き確率の逆変換。"
+  },
+  {
+    "id": 21,
+    "title": "正規分布（確率密度関数）",
+    "category": "数学",
+    "tags": ["統計"],
+    "formulaText": "f(x) = (1/(σ√(2π))) exp(-(x-μ)^2/(2σ^2))",
+    "latex": "f(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
+    "description": "平均 μ、標準偏差 σ の連続正規分布。"
+  },
+  {
+    "id": 22,
+    "title": "ニュートンの運動の第2法則",
+    "category": "物理",
+    "tags": ["力学"],
+    "formulaText": "F = m a",
+    "latex": "\\mathbf{F} = m \\mathbf{a}",
+    "description": "質量 m に加わる力 F と加速度 a の関係。"
+  },
+  {
+    "id": 23,
+    "title": "仕事とエネルギー",
+    "category": "物理",
+    "tags": ["力学", "エネルギー"],
+    "formulaText": "W = ∫ F·ds, 運動エネルギー T = (1/2) m v^2",
+    "latex": "W=\\int \\mathbf{F}\\cdot d\\mathbf{s}, \\quad T=\\tfrac{1}{2}mv^2",
+    "description": "仕事の定義と運動エネルギー。"
+  },
+  {
+    "id": 24,
+    "title": "保存力によるポテンシャル",
+    "category": "物理",
+    "tags": ["エネルギー", "力学"],
+    "formulaText": "F = -∇V",
+    "latex": "\\mathbf{F} = -\\nabla V",
+    "description": "ポテンシャル V の勾配により保存力が決まる。"
+  },
+  {
+    "id": 25,
+    "title": "単振動の角周波数",
+    "category": "物理",
+    "tags": ["振動", "波"],
+    "formulaText": "ω = √(k/m)",
+    "latex": "\\omega = \\sqrt{\\frac{k}{m}}",
+    "description": "ばね定数 k、質量 m の単振動。"
+  },
+  {
+    "id": 26,
+    "title": "クーロンの法則",
+    "category": "物理",
+    "tags": ["電磁気"],
+    "formulaText": "F = k q1 q2 / r^2",
+    "latex": "\\mathbf{F}=k\\frac{q_1 q_2}{r^2}\\hat{r}",
+    "description": "静電気力。k = 1/(4πε0) など。"
+  },
+  {
+    "id": 27,
+    "title": "電場と電位",
+    "category": "物理",
+    "tags": ["電磁気"],
+    "formulaText": "E = -∇V",
+    "latex": "\\mathbf{E} = -\\nabla V",
+    "description": "電位 V から電場を導く。"
+  },
+  {
+    "id": 28,
+    "title": "マクスウェル方程式（微分形）",
+    "category": "物理",
+    "tags": ["電磁気", "偏微分"],
+    "formulaText": "∇·E = ρ/ε0, ∇·B = 0, ∇×E = -∂B/∂t, ∇×B = μ0 J + μ0 ε0 ∂E/∂t",
+    "latex": "\\nabla\\cdot\\mathbf{E}=\\rho/\\varepsilon_0,\\;\\nabla\\cdot\\mathbf{B}=0,\\;\\nabla\\times\\mathbf{E}=-\\frac{\\partial\\mathbf{B}}{\\partial t},\\;\\nabla\\times\\mathbf{B}=\\mu_0\\mathbf{J}+\\mu_0\\varepsilon_0\\frac{\\partial\\mathbf{E}}{\\partial t}",
+    "description": "電磁場を支配する基本方程式群。"
+  },
+  {
+    "id": 29,
+    "title": "理想気体の状態方程式",
+    "category": "物理",
+    "tags": ["熱力学", "気体"],
+    "formulaText": "PV = nRT",
+    "latex": "PV = nRT",
+    "description": "P: 圧力, V: 体積, n: モル数, R: 気体定数, T: 絶対温度"
+  },
+  {
+    "id": 30,
+    "title": "エントロピー変化（可逆過程）",
+    "category": "物理",
+    "tags": ["熱力学", "エントロピー"],
+    "formulaText": "dS = δQ_rev / T",
+    "latex": "dS = \\frac{\\delta Q_{\\mathrm{rev}}}{T}",
+    "description": "可逆熱交換に対するエントロピーの定義。"
+  },
+  {
+    "id": 31,
+    "title": "特殊相対性の質量エネルギー等価",
+    "category": "物理",
+    "tags": ["相対性", "エネルギー"],
+    "formulaText": "E = m c^2",
+    "latex": "E=mc^2",
+    "description": "質量とエネルギーの等価性。"
+  },
+  {
+    "id": 32,
+    "title": "光の波長とエネルギー",
+    "category": "物理",
+    "tags": ["量子"],
+    "formulaText": "E = h ν = h c / λ",
+    "latex": "E = h\\nu = \\frac{hc}{\\lambda}",
+    "description": "光子のエネルギー。"
+  },
+  {
+    "id": 33,
+    "title": "ハイゼンベルグの不確定性原理",
+    "category": "物理",
+    "tags": ["量子"],
+    "formulaText": "Δx Δp ≥ ħ/2",
+    "latex": "\\Delta x\\,\\Delta p \\ge \\frac{\\hbar}{2}",
+    "description": "位置と運動量の同時測定の不確定性。"
+  },
+  {
+    "id": 34,
+    "title": "理想気体の状態方程式（再掲）",
+    "category": "化学",
+    "tags": ["気体", "基礎"],
+    "formulaText": "PV = nRT",
+    "latex": "PV = nRT",
+    "description": "化学でも基本的に利用される式。"
+  },
+  {
+    "id": 35,
+    "title": "アレニウスの式（反応速度）",
+    "category": "化学",
+    "tags": ["反応速度"],
+    "formulaText": "k = A e^{-E_a/(RT)}",
+    "latex": "k = A e^{-E_a/(RT)}",
+    "description": "A: 前因子, E_a: 活性化エネルギー。"
+  },
+  {
+    "id": 36,
+    "title": "濃度とモル分率",
+    "category": "化学",
+    "tags": ["濃度"],
+    "formulaText": "モル分率 x_i = n_i / Σ_j n_j",
+    "latex": "x_i = \\frac{n_i}{\\sum_j n_j}",
+    "description": "混合物中の成分割合。"
+  },
+  {
+    "id": 37,
+    "title": "ヘンリーの法則（気体溶解）",
+    "category": "化学",
+    "tags": ["溶解", "法則"],
+    "formulaText": "C = k_H p",
+    "latex": "C = k_H p",
+    "description": "溶解度 C は気体圧 p に比例（k_H は定数）。"
+  },
+  {
+    "id": 38,
+    "title": "フーリエ変換（連続）",
+    "category": "工学",
+    "tags": ["信号", "フーリエ"],
+    "formulaText": "F(ω) = ∫_{-∞}^{∞} f(t) e^{-iωt} dt",
+    "latex": "\\mathcal{F}\\{f\\}(\\omega)=\\int_{-\\infty}^{\\infty} f(t)e^{-i\\omega t}\\,dt",
+    "description": "時間→周波数領域変換の基本。"
+  },
+  {
+    "id": 39,
+    "title": "ラプラス変換",
+    "category": "工学",
+    "tags": ["信号", "変換"],
+    "formulaText": "F(s) = ∫_0^{∞} f(t) e^{-s t} dt",
+    "latex": "\\mathcal{L}\\{f\\}(s)=\\int_0^{\\infty} f(t)e^{-st}\\,dt",
+    "description": "制御理論や回路解析で多用。"
+  },
+  {
+    "id": 40,
+    "title": "オームの法則",
+    "category": "工学",
+    "tags": ["回路", "基礎"],
+    "formulaText": "V = I R",
+    "latex": "V = I R",
+    "description": "電圧 V、電流 I、抵抗 R の関係。"
+  },
+  {
+    "id": 41,
+    "title": "円周率 π（定義）",
+    "category": "定数",
+    "tags": ["定数", "数学"],
+    "formulaText": "円周/直径 = π ≈ 3.1415926535...",
+    "latex": "\\pi \\approx 3.141592653589793\\ldots",
+    "description": "数学・物理に頻出の定数。"
+  },
+  {
+    "id": 42,
+    "title": "自然対数の底 e",
+    "category": "定数",
+    "tags": ["定数", "数学"],
+    "formulaText": "e = lim_{n→∞} (1 + 1/n)^n ≈ 2.71828...",
+    "latex": "e \\approx 2.718281828459045\\ldots",
+    "description": "微分・指数関数の基底。"
+  },
+  {
+    "id": 43,
+    "title": "プランク定数 h",
+    "category": "定数",
+    "tags": ["物理", "定数"],
+    "formulaText": "h ≈ 6.62607015×10^{-34} J·s (定義値)",
+    "latex": "h \\approx 6.62607015\\times10^{-34} \\mathrm{J\\,s}",
+    "description": "量子論の基本定数。"
+  },
+  {
+    "id": 44,
+    "title": "光速 c",
+    "category": "定数",
+    "tags": ["物理", "定数"],
+    "formulaText": "c ≈ 299792458 m/s (定義値)",
+    "latex": "c \\approx 299,792,458 \\mathrm{m/s}",
+    "description": "真空中の光速（定義値）。"
+  },
+  {
+    "id": 45,
+    "title": "スターリングの近似",
+    "category": "数学",
+    "tags": ["近似", "階乗"],
+    "formulaText": "n! ≈ √(2π n) (n/e)^n",
+    "latex": "n! \\sim \\sqrt{2\\pi n}\\left(\\frac{n}{e}\\right)^n",
+    "description": "大きな n に対する階乗の近似。"
+  },
+  {
+    "id": 46,
+    "title": "チェビシェフ不等式（確率）",
+    "category": "数学",
+    "tags": ["確率", "不等式"],
+    "formulaText": "P(|X-μ| ≥ kσ) ≤ 1/k^2",
+    "latex": "P(|X-\\mu|\\ge k\\sigma)\\le \\frac{1}{k^2}",
+    "description": "分布に制約がなくても使える上界。"
+  },
+  {
+    "id": 47,
+    "title": "オイラーの公式（複素指数）",
+    "category": "数学",
+    "tags": ["複素解析", "恒等式"],
+    "formulaText": "e^{iθ} = cos θ + i sin θ",
+    "latex": "e^{i\\theta}=\\cos\\theta + i\\sin\\theta",
+    "description": "複素解析・フーリエ解析で重要。"
+  },
+  {
+    "id": 48,
+    "title": "ド・モアブルの定理",
+    "category": "数学",
+    "tags": ["複素解析"],
+    "formulaText": "(cos θ + i sin θ)^n = cos(nθ) + i sin(nθ)",
+    "latex": "(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)",
+    "description": "複素数の冪と三角関数の関係。"
+  },
+  {
+    "id": 49,
+    "title": "コーシー・リーマン方程式",
+    "category": "数学",
+    "tags": ["複素解析"],
+    "formulaText": "u_x = v_y, u_y = -v_x",
+    "latex": "u_x = v_y,\\quad u_y = -v_x",
+    "description": "f(z)=u(x,y)+iv(x,y) が正則である条件。"
+  },
+  {
+    "id": 50,
+    "title": "ガウス積分",
+    "category": "数学",
+    "tags": ["積分", "解析"],
+    "formulaText": "∫_{-∞}^{∞} e^{-x^2} dx = √π",
+    "latex": "\\int_{-\\infty}^{\\infty} e^{-x^2}\\,dx = \\sqrt{\\pi}",
+    "description": "正規化積分の基本。"
+  },
+  {
+    "id": 51,
+    "title": "ガンマ関数（階乗の一般化）",
+    "category": "数学",
+    "tags": ["特殊関数"],
+    "formulaText": "Γ(n) = ∫_0^∞ t^{n-1} e^{-t} dt, Γ(n+1)=n!",
+    "latex": "\\Gamma(n)=\\int_0^{\\infty} t^{n-1}e^{-t}\\,dt,\\quad \\Gamma(n+1)=n!",
+    "description": "連続的に拡張された階乗。"
+  },
+  {
+    "id": 52,
+    "title": "ベータ関数とガンマ関数の関係",
+    "category": "数学",
+    "tags": ["特殊関数"],
+    "formulaText": "B(x,y) = Γ(x)Γ(y)/Γ(x+y)",
+    "latex": "B(x,y)=\\frac{\\Gamma(x)\\Gamma(y)}{\\Gamma(x+y)}",
+    "description": "ベータ関数の定義と性質。"
+  },
+  {
+    "id": 53,
+    "title": "フーリエ級数（周期関数）",
+    "category": "数学",
+    "tags": ["フーリエ", "級数"],
+    "formulaText": "f(x)=a0/2 + Σ (a_n cos nωx + b_n sin nωx)",
+    "latex": "f(x)=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}\\big(a_n\\cos n\\omega x + b_n\\sin n\\omega x\\big)",
+    "description": "周期関数を三角関数で展開。"
+  },
+  {
+    "id": 54,
+    "title": "複素フーリエ変換（逆変換）",
+    "category": "数学",
+    "tags": ["フーリエ"],
+    "formulaText": "f(t) = (1/2π) ∫ F(ω) e^{iωt} dω",
+    "latex": "f(t)=\\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty} F(\\omega)e^{i\\omega t}\\,d\\omega",
+    "description": "スペクトルから元の信号を復元。"
+  },
+  {
+    "id": 55,
+    "title": "ラプラス方程式",
+    "category": "数学",
+    "tags": ["偏微分", "ポテンシャル"],
+    "formulaText": "∇^2 φ = 0",
+    "latex": "\\nabla^2 \\phi = 0",
+    "description": "調和関数の条件。電場や重力ポテンシャルで現れる。"
+  },
+  {
+    "id": 56,
+    "title": "ウェーブ方程式（1次元）",
+    "category": "物理",
+    "tags": ["波動"],
+    "formulaText": "∂^2 u/∂t^2 = c^2 ∂^2 u/∂x^2",
+    "latex": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}",
+    "description": "弦や音波の基本方程式。"
+  },
+  {
+    "id": 57,
+    "title": "拡散方程式（熱方程式）",
+    "category": "物理",
+    "tags": ["熱伝導", "偏微分"],
+    "formulaText": "∂u/∂t = D ∇^2 u",
+    "latex": "\\frac{\\partial u}{\\partial t}=D\\nabla^2 u",
+    "description": "熱や物質の拡散過程を表す。"
+  },
+  {
+    "id": 58,
+    "title": "グリーンの定理（平面）",
+    "category": "数学",
+    "tags": ["ベクトル解析"],
+    "formulaText": "∮_C (L dx + M dy) = ∬_D (∂M/∂x - ∂L/∂y) dA",
+    "latex": "\\oint_C L\\,dx+M\\,dy=\\iint_D\\left(\\frac{\\partial M}{\\partial x}-\\frac{\\partial L}{\\partial y}\\right)\\,dA",
+    "description": "領域と境界の線積分・面積分の関係。"
+  },
+  {
+    "id": 59,
+    "title": "発散定理（ガウスの定理）",
+    "category": "数学",
+    "tags": ["ベクトル解析"],
+    "formulaText": "∭_V (∇·F) dV = ∮_S F·dS",
+    "latex": "\\iiint_V (\\nabla\\cdot\\mathbf{F})\\,dV=\\oint_S \\mathbf{F}\\cdot d\\mathbf{S}",
+    "description": "体積とその境界面の関係。"
+  },
+  {
+    "id": 60,
+    "title": "ストークスの定理",
+    "category": "数学",
+    "tags": ["ベクトル解析"],
+    "formulaText": "∮_C F·dr = ∬_S (∇×F)·dS",
+    "latex": "\\oint_C \\mathbf{F}\\cdot d\\mathbf{r}=\\iint_S (\\nabla\\times\\mathbf{F})\\cdot d\\mathbf{S}",
+    "description": "曲線とその貼られた面との関係。"
+  },
+  {
+    "id": 61,
+    "title": "行列式と体積",
+    "category": "数学",
+    "tags": ["線形代数", "行列"],
+    "formulaText": "det(A) は線形変換による体積倍率",
+    "latex": "\\det(A)",
+    "description": "行列の行列式は体積の拡大率。"
+  },
+  {
+    "id": 62,
+    "title": "特異値分解（SVD）",
+    "category": "数学",
+    "tags": ["線形代数", "分解"],
+    "formulaText": "A = U Σ V^T",
+    "latex": "A = U\\Sigma V^{\\top}",
+    "description": "任意行列の標準分解。"
+  },
+  {
+    "id": 63,
+    "title": "チェビシェフ多項式の漸化式",
+    "category": "数学",
+    "tags": ["直交多項式"],
+    "formulaText": "T_{n+1}(x) = 2x T_n(x) - T_{n-1}(x)",
+    "latex": "T_{n+1}(x)=2xT_n(x)-T_{n-1}(x)",
+    "description": "直交多項式の一種。"
+  },
+  {
+    "id": 64,
+    "title": "ベッセル方程式（基礎形）",
+    "category": "数学",
+    "tags": ["特殊関数", "微分方程式"],
+    "formulaText": "x^2 y'' + x y' + (x^2 - ν^2) y = 0",
+    "latex": "x^2 y'' + x y' + (x^2 - \\nu^2) y = 0",
+    "description": "円筒対称問題で現れる。"
+  },
+  {
+    "id": 65,
+    "title": "ガウスの確率密度関数（多変量）",
+    "category": "統計",
+    "tags": ["統計", "多変量"],
+    "formulaText": "(2π)^{-n/2}|Σ|^{-1/2} exp(-1/2 (x-μ)^T Σ^{-1} (x-μ))",
+    "latex": "(2\\pi)^{-\\frac{n}{2}}|\\Sigma|^{-\\frac{1}{2}}\\exp\\left(-\\tfrac{1}{2}(\\mathbf{x}-\\mu)^\\top\\Sigma^{-1}(\\mathbf{x}-\\mu)\\right)",
+    "description": "多変量正規分布の密度。"
+  },
+  {
+    "id": 66,
+    "title": "期待値と分散（定義）",
+    "category": "統計",
+    "tags": ["統計", "基礎"],
+    "formulaText": "E[X] = Σ x p(x) or ∫ x f(x) dx, Var(X)=E[X^2]-E[X]^2",
+    "latex": "\\mathbb{E}[X]=\\sum_x x p(x)\\quad\\text{or}\\quad\\int x f(x)dx,\\quad\\mathrm{Var}(X)=\\mathbb{E}[X^2]-\\mathbb{E}[X]^2",
+    "description": "確率変数の基本統計量。"
+  },
+  {
+    "id": 67,
+    "title": "共分散と相関係数",
+    "category": "統計",
+    "tags": ["統計", "相関"],
+    "formulaText": "Cov(X,Y)=E[(X-E[X])(Y-E[Y])], ρ = Cov/σ_X σ_Y",
+    "latex": "\\mathrm{Cov}(X,Y)=\\mathbb{E}[(X-\\mathbb{E}[X])(Y-\\mathbb{E}[Y])],\\quad \\rho=\\frac{\\mathrm{Cov}(X,Y)}{\\sigma_X\\sigma_Y}",
+    "description": "二変量の線形依存度を表す。"
+  },
+  {
+    "id": 68,
+    "title": "中心極限定理（概念）",
+    "category": "統計",
+    "tags": ["統計", "確率"],
+    "formulaText": "独立同分布の和は n→∞ で正規分布に収束",
+    "latex": "\\text{(中心極限定理)}",
+    "description": "大数の法則に基づく重要な定理。"
+  },
+  {
+    "id": 69,
+    "title": "二項分布の確率質量関数",
+    "category": "統計",
+    "tags": ["統計", "離散"],
+    "formulaText": "P(X=k)=C(n,k) p^k (1-p)^{n-k}",
+    "latex": "P(X=k)=\\binom{n}{k}p^k(1-p)^{n-k}",
+    "description": "独立試行の成功回数の分布。"
+  },
+  {
+    "id": 70,
+    "title": "ポアソン分布の PMF",
+    "category": "統計",
+    "tags": ["統計", "離散"],
+    "formulaText": "P(X=k)=λ^k e^{-λ} / k!",
+    "latex": "P(X=k)=\\frac{\\lambda^k e^{-\\lambda}}{k!}",
+    "description": "希な事象の回数分布。"
+  },
+  {
+    "id": 71,
+    "title": "指数分布の PDF & 平均",
+    "category": "統計",
+    "tags": ["統計", "連続"],
+    "formulaText": "f(x)=λ e^{-λ x} (x≥0), E[X]=1/λ",
+    "latex": "f(x)=\\lambda e^{-\\lambda x}\\ (x\\ge0),\\quad \\mathbb{E}[X]=\\frac{1}{\\lambda}",
+    "description": "待ち時間などのモデル。"
+  },
+  {
+    "id": 72,
+    "title": "シャノンの情報量（自己情報）",
+    "category": "工学",
+    "tags": ["情報", "エントロピー"],
+    "formulaText": "I(x) = -log_2 P(x), 情報量の期待値はエントロピー",
+    "latex": "I(x)=-\\log_2 P(x),\\quad H(X)=\\mathbb{E}[I(X)]",
+    "description": "情報理論の基礎。"
+  },
+  {
+    "id": 73,
+    "title": "シャノン＝ハートレーの定理（容量）",
+    "category": "工学",
+    "tags": ["通信", "容量"],
+    "formulaText": "C = B log_2(1 + S/N)",
+    "latex": "C = B\\log_2\\left(1+\\frac{S}{N}\\right)",
+    "description": "帯域幅 B と信号雑音比 S/N に対する理論上の最大情報伝送率。"
+  },
+  {
+    "id": 74,
+    "title": "サンプリング定理（ナイキスト）",
+    "category": "工学",
+    "tags": ["信号処理", "サンプリング"],
+    "formulaText": "f_s ≥ 2 f_max により連続信号を復元可能",
+    "latex": "f_s \\ge 2 f_{\\max}",
+    "description": "標本化周波数の下限条件。"
+  },
+  {
+    "id": 75,
+    "title": "離散フーリエ変換（DFT）",
+    "category": "信号処理",
+    "tags": ["フーリエ", "離散"],
+    "formulaText": "X_k = Σ_{n=0}^{N-1} x_n e^{-i 2π k n / N}",
+    "latex": "X_k=\\sum_{n=0}^{N-1} x_n e^{-i2\\pi kn/N}",
+    "description": "有限長離散信号の周波数表現。"
+  },
+  {
+    "id": 76,
+    "title": "畳み込み定理（畳み込み）",
+    "category": "信号処理",
+    "tags": ["畳み込み", "変換"],
+    "formulaText": "f * g ↔ F · G（フーリエ変換での積）",
+    "latex": "(f*g)\\leftrightarrow F\\cdot G",
+    "description": "時間領域の畳み込みは周波数領域での積に対応。"
+  },
+  {
+    "id": 77,
+    "title": "インピーダンス（R,L,C）",
+    "category": "工学",
+    "tags": ["回路", "インピーダンス"],
+    "formulaText": "Z_R=R, Z_L = iωL, Z_C = 1/(iωC)",
+    "latex": "Z_R=R,\\quad Z_L=i\\omega L,\\quad Z_C=\\frac{1}{i\\omega C}",
+    "description": "交流回路で用いる複素インピーダンス。"
+  },
+  {
+    "id": 78,
+    "title": "RLC 共振周波数（並列/直列）",
+    "category": "工学",
+    "tags": ["回路", "共振"],
+    "formulaText": "ω_0 = 1/√(LC)",
+    "latex": "\\omega_0=\\frac{1}{\\sqrt{LC}}",
+    "description": "理想的な RLC 回路の共振角周波数。"
+  },
+  {
+    "id": 79,
+    "title": "Q 値（品質係数）",
+    "category": "工学",
+    "tags": ["回路", "共振"],
+    "formulaText": "Q = ω_0 L / R（直列）",
+    "latex": "Q=\\frac{\\omega_0 L}{R}",
+    "description": "共振回路の鋭さを表す無次元数。"
+  },
+  {
+    "id": 80,
+    "title": "デシベル（電力比・振幅比）",
+    "category": "工学",
+    "tags": ["信号", "単位"],
+    "formulaText": "dB = 10 log10(P2/P1) = 20 log10(A2/A1)",
+    "latex": "\\mathrm{dB}=10\\log_{10}\\frac{P_2}{P_1}=20\\log_{10}\\frac{A_2}{A_1}",
+    "description": "対数的な比の表現。"
+  },
+  {
+    "id": 81,
+    "title": "ナビエ–ストークス方程式（運動量保存）",
+    "category": "物理",
+    "tags": ["流体", "偏微分"],
+    "formulaText": "ρ(∂v/∂t + v·∇v) = -∇p + μ ∇^2 v + f",
+    "latex": "\\rho\\left(\\frac{\\partial \\mathbf{v}}{\\partial t}+\\mathbf{v}\\cdot\\nabla\\mathbf{v}\\right)=-\\nabla p + \\mu\\nabla^2\\mathbf{v}+\\mathbf{f}",
+    "description": "粘性流体の運動方程式。"
+  },
+  {
+    "id": 82,
+    "title": "連続の方程式（質量保存）",
+    "category": "物理",
+    "tags": ["流体", "保存則"],
+    "formulaText": "∂ρ/∂t + ∇·(ρ v) = 0",
+    "latex": "\\frac{\\partial \\rho}{\\partial t}+\\nabla\\cdot(\\rho\\mathbf{v})=0",
+    "description": "流体の質量保存。"
+  },
+  {
+    "id": 83,
+    "title": "ベルヌーイの定理（定常非粘性流）",
+    "category": "物理",
+    "tags": ["流体", "近似"],
+    "formulaText": "p + 1/2 ρ v^2 + ρ g h = 定数",
+    "latex": "p+\\tfrac{1}{2}\\rho v^2 + \\rho g h = \\text{const}",
+    "description": "エネルギー保存の簡易版。"
+  },
+  {
+    "id": 84,
+    "title": "レイノルズ数",
+    "category": "工学",
+    "tags": ["流体", "無次元"],
+    "formulaText": "Re = ρ v L / μ",
+    "latex": "\\mathrm{Re}=\\frac{\\rho v L}{\\mu}",
+    "description": "流れの層流/乱流判定に用いる無次元数。"
+  },
+  {
+    "id": 85,
+    "title": "フレネル反射係数（垂直偏光）",
+    "category": "物理",
+    "tags": ["光学", "反射"],
+    "formulaText": "r = (n1 cos θ_i - n2 cos θ_t) / (n1 cos θ_i + n2 cos θ_t)",
+    "latex": "r=\\frac{n_1\\cos\\theta_i - n_2\\cos\\theta_t}{n_1\\cos\\theta_i + n_2\\cos\\theta_t}",
+    "description": "媒質境界での反射係数。"
+  },
+  {
+    "id": 86,
+    "title": "スネルの法則（屈折）",
+    "category": "物理",
+    "tags": ["光学"],
+    "formulaText": "n1 sin θ1 = n2 sin θ2",
+    "latex": "n_1\\sin\\theta_1 = n_2\\sin\\theta_2",
+    "description": "媒質間の光の屈折角。"
+  },
+  {
+    "id": 87,
+    "title": "プランクの放射則（スペクトル輝度）",
+    "category": "物理",
+    "tags": ["熱放射", "量子"],
+    "formulaText": "B(ν,T) = (2hν^3/c^2)/(e^{hν/(kT)} - 1)",
+    "latex": "B(\\nu,T)=\\frac{2h\\nu^3}{c^2}\\frac{1}{e^{h\\nu/(kT)}-1}",
+    "description": "黒体からの周波数ごとの放射強度。"
+  },
+  {
+    "id": 88,
+    "title": "ステファン＝ボルツマン則",
+    "category": "物理",
+    "tags": ["熱放射"],
+    "formulaText": "j^* = σ T^4",
+    "latex": "j^*=\\sigma T^4",
+    "description": "黒体の単位面積あたりの放射総量。"
+  },
+  {
+    "id": 89,
+    "title": "ウィーンの変位則",
+    "category": "物理",
+    "tags": ["熱放射"],
+    "formulaText": "λ_max T = b",
+    "latex": "\\lambda_{\\max} T = b",
+    "description": "最大放射波長と温度の逆比例関係。"
+  },
+  {
+    "id": 90,
+    "title": "ボルツマン分布（エネルギー確率）",
+    "category": "物理",
+    "tags": ["統計力学"],
+    "formulaText": "P(E) ∝ e^{-E/(kT)}",
+    "latex": "P(E)\\propto e^{-E/(kT)}",
+    "description": "平衡状態でのエネルギー分布。"
+  },
+  {
+    "id": 91,
+    "title": "ギブズの自由エネルギー",
+    "category": "化学",
+    "tags": ["熱力学"],
+    "formulaText": "G = H - T S",
+    "latex": "G = H - T S",
+    "description": "定温定圧での化学反応の自由エネルギー。"
+  },
+  {
+    "id": 92,
+    "title": "ネルンスト方程式（電池電位）",
+    "category": "化学",
+    "tags": ["電気化学"],
+    "formulaText": "E = E^0 - (RT/nF) ln Q",
+    "latex": "E=E^0-\\frac{RT}{nF}\\ln Q",
+    "description": "反応商 Q による電極電位の変化。"
+  },
+  {
+    "id": 93,
+    "title": "Henderson–Hasselbalch（pH）",
+    "category": "化学",
+    "tags": ["酸塩基"],
+    "formulaText": "pH = pKa + log_{10}([A^-]/[HA])",
+    "latex": "\\mathrm{pH}=\\mathrm{p}K_a+\\log_{10}\\frac{[A^-]}{[HA]}",
+    "description": "緩衝溶液の pH の近似式。"
+  },
+  {
+    "id": 94,
+    "title": "ファラデー定数",
+    "category": "定数",
+    "tags": ["化学", "定数"],
+    "formulaText": "F ≈ 96485 C/mol",
+    "latex": "F\\approx 96485\\ \\mathrm{C/mol}",
+    "description": "1 mol の単位電荷（電子）の電荷量の和。"
+  },
+  {
+    "id": 95,
+    "title": "アボガドロ数",
+    "category": "定数",
+    "tags": ["化学", "定数"],
+    "formulaText": "N_A ≈ 6.02214076×10^{23} mol^{-1}",
+    "latex": "N_A\\approx 6.02214076\\times10^{23}\\ \\mathrm{mol}^{-1}",
+    "description": "1 mol 中の粒子の数。"
+  },
+  {
+    "id": 96,
+    "title": "ナイキスト周波数とアンチエイリアシング（概念）",
+    "category": "信号処理",
+    "tags": ["サンプリング", "実践"],
+    "formulaText": "サンプリング前に帯域制限（アンチエイリアシング）を行う必要性の説明",
+    "latex": "\\text{(ナイキスト) } f_s\\ge2f_{\\max}",
+    "description": "実務上はアンチエイリアスフィルタが重要。"
+  }
+]
